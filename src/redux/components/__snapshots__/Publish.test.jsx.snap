@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Publish matches the snapshot 1`] = `
+<nav
+  className="panel"
+>
+  <p
+    className="panel-heading"
+  >
+    Publish Message
+  </p>
+  <div
+    className="panel-block"
+  >
+    <p
+      className="control has-icons-left"
+    >
+      <input
+        className="input is-small"
+        name="pubKey"
+        onChange={[Function]}
+        placeholder="Key"
+        type="text"
+        value=""
+      />
+      <span
+        className="icon is-small is-left"
+      >
+        <i
+          className="fa fa-comment"
+        />
+      </span>
+    </p>
+  </div>
+  <div
+    className="panel-block"
+  >
+    <p
+      className="control has-icons-left"
+    >
+      <input
+        className="input is-small"
+        name="pubValue"
+        onChange={[Function]}
+        placeholder="Message"
+        type="text"
+        value=""
+      />
+      <span
+        className="icon is-small is-left"
+      >
+        <i
+          className="fa fa-comment"
+        />
+      </span>
+    </p>
+  </div>
+  <div
+    className="panel-block"
+  >
+    <p
+      className="control has-icons-left"
+    >
+      <input
+        className="input is-small"
+        name="selectedTopic"
+        onChange={[Function]}
+        placeholder="Topic"
+        type="text"
+        value=""
+      />
+      <span
+        className="icon is-small is-left"
+      >
+        <i
+          className="fa fa-comment"
+        />
+      </span>
+    </p>
+  </div>
+  <div
+    className="panel-block"
+  >
+    <button
+      className="button is-fullwidth is-success"
+      disabled={true}
+      onClick={[Function]}
+    >
+      Publish
+    </button>
+  </div>
+</nav>
+`;

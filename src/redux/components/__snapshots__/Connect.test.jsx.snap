@@ -1,0 +1,108 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Connect matches the snapshot 1`] = `
+<nav
+  className="panel"
+>
+  <p
+    className="panel-heading"
+  >
+    Connection Details
+  </p>
+  <div
+    className="panel-block"
+  >
+    <p
+      className="control has-icons-left"
+    >
+      <input
+        className="input is-small"
+        name="host"
+        onChange={[Function]}
+        placeholder="host"
+        type="text"
+      />
+      <span
+        className="icon is-small is-left"
+      >
+        <i
+          className="fa fa-server"
+        />
+      </span>
+    </p>
+  </div>
+  <div
+    className="panel-block"
+  >
+    <p
+      className="control has-icons-left"
+    >
+      <input
+        className="input is-small"
+        name="clientId"
+        onChange={[Function]}
+        placeholder="Client Id"
+        type="text"
+      />
+      <span
+        className="icon is-small is-left"
+      >
+        <i
+          className="fa fa-user"
+        />
+      </span>
+    </p>
+  </div>
+  <div
+    className="panel-block"
+  >
+    <p
+      className="control has-icons-left"
+    >
+      Heartbeat Count: 
+      0
+    </p>
+  </div>
+  <div
+    className="panel-block"
+  >
+    <p
+      className="control has-icons-left"
+    >
+      <label
+        className="checkbox"
+      >
+        <input
+          checked={false}
+          name="authRequired"
+          onChange={[Function]}
+          type="checkbox"
+        />
+        Requires Authentication
+      </label>
+    </p>
+    <div
+      className="control"
+    >
+      <button
+        className="button is-small is-info is-pulled-right"
+        disabled={true}
+        onClick={[Function]}
+      >
+        Login
+      </button>
+    </div>
+  </div>
+  <div />
+  <div
+    className="panel-block"
+  >
+    <button
+      className="button is-fullwidth is-primary"
+      onClick={[Function]}
+    >
+      Connect
+    </button>
+  </div>
+</nav>
+`;

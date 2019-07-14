@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListActions matches the snapshot 1`] = `
+<div
+  className="panel-block"
+>
+  <div
+    className="control"
+  >
+    <button
+      className="button is-small is-info"
+      style={
+        Object {
+          "marginRight": "10px",
+        }
+      }
+    >
+      Subscribe
+    </button>
+    <button
+      className="button is-small is-danger"
+    >
+      Clear Messages
+    </button>
+  </div>
+  <div
+    className="control"
+  />
+</div>
+`;
