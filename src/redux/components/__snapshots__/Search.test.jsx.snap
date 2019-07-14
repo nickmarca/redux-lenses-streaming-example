@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search matches the snapshot 1`] = `
+<div
+  className="panel-block"
+>
+  <div
+    className="field has-addons"
+  >
+    <div
+      className="control"
+    >
+      <input
+        className="input is-small"
+        onChange={[Function]}
+        placeholder="Find a message"
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      className="control"
+    >
+      <button
+        className="button is-info is-small"
+        onClick={[Function]}
+      >
+        Search
+      </button>
+    </div>
+  </div>
+</div>
+`;

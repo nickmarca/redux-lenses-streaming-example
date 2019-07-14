@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListHeading matches the snapshot 1`] = `
+<div
+  className="panel-block"
+  style={
+    Object {
+      "borderTop": 0,
+    }
+  }
+>
+  <div
+    className="control"
+  >
+    Number of messages: 
+  </div>
+</div>
+`;

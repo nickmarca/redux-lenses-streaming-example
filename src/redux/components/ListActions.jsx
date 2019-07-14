@@ -1,6 +1,6 @@
 import React from 'react'
 
-function PanelABlockA({
+function ListActions({
     isSubscribeDisabled,
     isClearDisabled,
     onClearMessages,
@@ -32,4 +32,4 @@ function PanelABlockA({
     )
 }
 
-export default PanelABlockA
+export default ListActions

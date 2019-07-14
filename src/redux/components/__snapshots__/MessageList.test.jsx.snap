@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MessageList matches the snapshot 1`] = `
+<div>
+  <div
+    className="tabs is-small"
+    style={
+      Object {
+        "background": "#fff",
+        "margin": 0,
+        "padding": "25px 0 0 0",
+      }
+    }
+  >
+    <ul>
+      <li
+        className="is-active"
+      >
+        <a
+          onClick={[Function]}
+        >
+          Messages
+        </a>
+      </li>
+      <li
+        className=""
+      >
+        <a
+          onClick={[Function]}
+        >
+          Chart
+        </a>
+      </li>
+    </ul>
+  </div>
+  <nav
+    className="panel"
+  >
+    <div
+      className="panel-block"
+      style={
+        Object {
+          "borderTop": 0,
+        }
+      }
+    >
+      <div
+        className="control"
+      >
+        Number of messages: 
+        0
+      </div>
+    </div>
+    <div
+      className="panel-block"
+    >
+      <div
+        className="autosizer-bulma-fix"
+        style={
+          Object {
+            "height": 0,
+            "overflow": "visible",
+            "width": 0,
+          }
+        }
+      >
+        <div
+          aria-label="grid"
+          aria-readonly={true}
+          className="ReactVirtualized__Grid ReactVirtualized__List"
+          onScroll={[Function]}
+          role="grid"
+          style={
+            Object {
+              "WebkitOverflowScrolling": "touch",
+              "boxSizing": "border-box",
+              "direction": "ltr",
+              "height": 290,
+              "overflowX": "hidden",
+              "overflowY": "hidden",
+              "position": "relative",
+              "width": 0,
+              "willChange": "transform",
+            }
+          }
+          tabIndex={0}
+        />
+      </div>
+    </div>
+  </nav>
+</div>
+`;

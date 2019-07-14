@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 import classnames from 'classnames';
 import { Actions as KafkaActions } from 'redux-lenses-streaming';
 
-class Publish extends React.Component {
+export class Publish extends React.Component {
   constructor(props) {
     super(props);
 

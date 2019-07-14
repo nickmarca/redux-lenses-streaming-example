@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SQLInput matches the snapshot 1`] = `
+<div
+  className="panel-heading"
+>
+  <div
+    className="field has-addons"
+  >
+    <p
+      className="control is-expanded"
+    >
+      <textarea
+        className="textarea is-small is-info"
+        placeholder="SQLS"
+        rows="3"
+      />
+    </p>
+  </div>
+</div>
+`;

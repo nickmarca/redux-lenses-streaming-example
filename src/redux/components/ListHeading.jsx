@@ -1,8 +1,8 @@
 import React from 'react'
 
-function PanelBBlockA ({ numberOfMessages }) {
+function ListHeading ({ numberOfMessages }) {
     return (
-        <div className="panel-block">
+        <div className="panel-block" style={{borderTop: 0}}>
             <div className="control">
                 Number of messages: {numberOfMessages}
             </div>
@@ -10,4 +10,4 @@ function PanelBBlockA ({ numberOfMessages }) {
     );
 }
 
-export default PanelBBlockA;
+export default ListHeading;

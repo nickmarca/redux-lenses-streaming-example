@@ -1,7 +1,9 @@
 import React, { Fragment, useState } from 'react';
-import PanelA from './PanelA';
-import PanelB from './PanelB';
+import Actions from './Actions';
+import MessageList from './MessageList';
 import ListItemDetails from './ListItemDetails';
+import { filter } from 'lodash';
+import { findInJSON } from '../util';
 
 function Messages({ messages, onCommit }) {
     const [detailed, setDetailed] = useState({});
@@ -11,20 +13,26 @@ function Messages({ messages, onCommit }) {
         setDetailed(message);
     };
 
-    console.log('messages', messages);
+    const onSearch = keyword => {
+        const res = filter(messages, ({ key, value }) => {
+            return findInJSON(key, keyword) || findInJSON(value, keyword);
+        });
+
+        return setSearchResult(res);
+    };
 
     return (
         <Fragment>
-            <PanelA />
+            <Actions onSerch={onSearch} totalOfMessages={messages.length} />
             <ListItemDetails
                 message={detailed}
                 onCommitMessage={onCommit}
                 onShowRowDetails={onMessageDetailRequest}
             />
 
-            {messages.length ? (
-                <PanelB
-                    messages={messages.slice(0, 3)}
+            {searchResult.length ? (
+                <MessageList
+                    messages={searchResult}
                     onCommitMessage={onCommit}
                     onMessageDetailRequest={onMessageDetailRequest}
                     shouldScrollToBottom={false}
@@ -32,7 +40,7 @@ function Messages({ messages, onCommit }) {
             ) : null}
 
             {messages.length ? (
-                <PanelB
+                <MessageList
                     messages={messages}
                     onCommitMessage={onCommit}
                     onMessageDetailRequest={onMessageDetailRequest}

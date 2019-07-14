@@ -1,6 +1,6 @@
 import React from 'react'
 
-function PanelAHeading({ value, onChange }) {
+function SQLInput({ value, onChange }) {
     return (
         <div className="panel-heading">
             <div className="field has-addons">
@@ -18,4 +18,4 @@ function PanelAHeading({ value, onChange }) {
     )
 }
 
-export default PanelAHeading
+export default SQLInput

@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-function PanelABlockB({ isSearchDisabled, onSearch }) {
+function Search({ isSearchDisabled, onSearch }) {
     const [value, setValue] = useState('')
 
     const onChange = ({ target }) => setValue(target.value);
@@ -32,4 +32,4 @@ function PanelABlockB({ isSearchDisabled, onSearch }) {
     )
 }
 
-export default PanelABlockB
+export default Search

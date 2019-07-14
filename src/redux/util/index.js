@@ -9,3 +9,9 @@ export const parseMessages = (messages, index) => {
     });
     return [arr, keys];
 };
+
+export const findInJSON = (json, keyword) => {
+    const obj = JSON.parse(json);
+    const values = Object.values(obj).map(i => i + '');
+    return values.includes(keyword);
+}

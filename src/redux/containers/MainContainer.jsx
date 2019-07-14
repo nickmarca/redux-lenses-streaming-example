@@ -4,9 +4,9 @@ import { Actions as KafkaActions } from 'redux-lenses-streaming';
 
 import Connect from '../components/Connect';
 import Publish from '../components/Publish';
-import PanelA from '../components/PanelA';
-import MessageList from '../components/PanelB';
-import Messages from '../components/Messages';
+import PanelA from '../components/Actions';
+import MessageList from '../components/MessageList';
+import Messages from '../components/Section';
 
 class MainContainer extends React.Component {
   render() {
