@@ -29,7 +29,7 @@ class ListItemDetails extends React.Component {
 
   render() {
     let arr = [];
-    const { message, onShowRowDetails } = this.props;
+    const { message } = this.props;
     const { value } = message;
     if (value) {
       Object.keys(JSON.parse(value)).forEach(function(k) {
