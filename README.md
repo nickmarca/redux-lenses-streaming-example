@@ -1,4 +1,4 @@
-# Leses coding test
+# Lenses coding test
 
 ### Just some principles I always try to follow:
 - I'd rather using React function based components instead of a React Class based components (with react hooks we can create a any project with only function components)
