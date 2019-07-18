@@ -1,7 +1,7 @@
 # Lenses coding test
 
-### Just some principles I always try to follow:
-- I'd rather using React function based components instead of a React Class based components (with react hooks we can create a any project with only function components)
+### Some principles I always try to follow:
+- I'd rather using React function based components instead of a React Class based components (with react hooks we can create any project with only function components)
 - React components should be as small/simple as possible.
 - I try always creating pure function, this sometimes might lead to a verbose code but it's better for creating testable code.
 - Whenever it's possible to shorten the code using language sintax sugar, I do it.
